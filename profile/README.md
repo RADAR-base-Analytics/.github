@@ -11,6 +11,8 @@ Most pipelines will consume RADAR-base data directly and this functionality is p
 
 
 # Creating Citable Analytics Pipelines
+A Zenodo community page for analysis pipelines can be found [here](https://zenodo.org/communities/radar-base-analytics/?page=1&size=20) we will aim to curate this community page with repositories added to the RADAR-base Analytics catalogue (this org).
+
 You may add citations to the RADAR-base pipeline using either or both the GitHub CITATIONS.cff file and the [Zenodo](https://zenodo.org/) badge.
  - [GitHub CFF File](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files )
  - [CFF website](https://citation-file-format.github.io/)
@@ -37,5 +39,4 @@ date-released: 2022-10-25
 url: "https://github.com/RADAR-base-Analytics/mockfeatures"
 ```
 
-Zenodo DOI URLs will automatically get created for any analytics repository in this Github Organisation (please email radar-base@kcl.ac.uk for your DOI) or you may manage this with your own Zenodo account.
-
+Zenodo DOI URLs will automatically get created for any analytics repository in this Github Organisation (please fill the CITATION.cff file and create a release, and tag @afolarin or @Hsankesara to review, we will then add the DOI URL and publish it on the Zenodo community).
