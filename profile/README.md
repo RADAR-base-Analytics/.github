@@ -39,4 +39,4 @@ date-released: 2022-10-25
 url: "https://github.com/RADAR-base-Analytics/mockfeatures"
 ```
 
-Zenodo DOI URLs will automatically get created for any analytics repository in this Github Organisation (please fill the CITATION.cff file and create a release, and tag @afolarin or @Hsankesara to review, we will then add the DOI URL and publish it on the Zenodo community).
+Citable Zenodo DOI URLs will automatically get created for any analytics repository in this Github Organisation whenever you create a new release. When you create a new analytics repo, add a `CITATION.cff` file then create a pull request and tag `@afolarin` and `@Hsankesara` to review (and tag in the PR description `@RADAR-base-Analytics/pipeline-catalog-admins`) and publish it on the Zenodo community. Next create a release, this will then be picked up by Zenodo and a DOI will be created (e.g. 10.5281/zenodo.7248672), we will then add the DOI URL to the CITATION.tff). Lastly, add any relevant topics to the repository e.g. `data`, `feature-extraction` etc.
