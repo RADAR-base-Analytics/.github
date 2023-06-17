@@ -1,11 +1,11 @@
 # RADAR-base Analytics Catalogue
 
-This is a collection of reusable analytics pipelines for loading, processing and featurizing RADAR-base datasets.
+This is a collection of reusable analytics pipelines for loading, processing and featurising RADAR-base datasets.
 
-You may add new pipelines 
+You may add new pipelines and publish them here:
 
-
-Most pipelines will consume RADAR-base data directly and this functionality is provided using [RADAR-base pipeline]() use this as the basis for creating new pipelines. Instructions are provided in the README and Wiki of that repository.
+# See Documentation in the Main Repo `radarpipeline`
+Most pipelines will consume RADAR-base data directly and this functionality is provided using [RADAR-base pipeline]() use as the basis for creating new pipelines. Instructions are provided in the README and Wiki of that repository.
  - [RADAR-base Pipeline README](https://github.com/RADAR-base/radarpipeline)
  - [RADAR-base Pipeline Wiki](https://github.com/RADAR-base/radarpipeline/wiki)
 
@@ -39,4 +39,4 @@ date-released: 2022-10-25
 url: "https://github.com/RADAR-base-Analytics/mockfeatures"
 ```
 
-Citable Zenodo DOI URLs will automatically get created for any analytics repository in this Github Organisation whenever you create a new release. When you create a new analytics repo, add a `CITATION.cff` file then create a pull request and tag `@afolarin` and `@Hsankesara` to review (and tag in the PR description `@RADAR-base-Analytics/pipeline-catalog-admins`) and publish it on the Zenodo community. Next create a release, this will then be picked up by Zenodo and a DOI will be created (e.g. 10.5281/zenodo.7248672), we will then add the DOI URL to the CITATION.tff). Lastly, add any relevant topics to the repository e.g. `data`, `feature-extraction` etc.
+Citable Zenodo DOI URLs will automatically get created for any analytics repository in this Github Organisation whenever you create a new release. When you create a new analytics repo, add a `CITATION.cff` file then create a pull request and tag `@afolarin` and `@Hsankesara` to review (and tag in the PR description `@RADAR-base-Analytics/pipeline-catalog-admins`) and publish it on the Zenodo community. Next, create a release, this will then be picked up by Zenodo and a DOI will be created (e.g. 10.5281/zenodo.7248672), we will then add the DOI URL to the CITATION.tff). Lastly, add any relevant topics to the repository e.g. `data`, `feature-extraction` etc.
